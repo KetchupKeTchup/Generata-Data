@@ -2,9 +2,6 @@
     Цей розділ хранить всі країни з даними
 """
 
-
-
-
 austria = {
     "countrie": "Austria",
     "names":
@@ -71,7 +68,7 @@ usa = {
     },
 }
 
-# === 1. Canada ===
+
 canada = {
     "countrie": "Canada",
     "names": ["Oliver", "Emma", "Liam", "Sophia", "Noah", "Charlotte", "Ethan", "Isabella", "Lucas", "Amelia"],
@@ -99,7 +96,7 @@ canada = {
     }
 }
 
-# === 2. Germany ===
+
 germany = {
     "countrie": "Germany",
     "names": ["Hans", "Lukas", "Sophie", "Anna", "Felix", "Lena", "Karl", "Mia", "Johann", "Lea"],
@@ -127,7 +124,7 @@ germany = {
     }
 }
 
-# === 3. Japan ===
+
 japan = {
     "countrie": "Japan",
     "names": ["Haruto", "Yuki", "Sakura", "Hana", "Ren", "Aoi", "Kaito", "Mei", "Riku", "Yuna"],
@@ -155,7 +152,7 @@ japan = {
     }
 }
 
-# === 4. United Kingdom ===
+
 uk = {
     "countrie": "United Kingdom",
     "names": ["Oliver", "George", "Harry", "Jack", "Amelia", "Isla", "Emily", "Ava", "Freddie", "Sophie"],
@@ -183,7 +180,7 @@ uk = {
     }
 }
 
-# === 5. France ===
+
 france = {
     "countrie": "France",
     "names": ["Lucas", "Hugo", "Léa", "Emma", "Louis", "Chloé", "Gabriel", "Jules", "Camille", "Sarah"],
@@ -211,7 +208,7 @@ france = {
     }
 }
 
-# === 6. India ===
+
 india = {
     "countrie": "India",
     "names": ["Aarav", "Vivaan", "Aditya", "Diya", "Ananya", "Ishaan", "Riya", "Aryan", "Sneha", "Priya"],
@@ -239,7 +236,7 @@ india = {
     }
 }
 
-# === 7. China ===
+
 china = {
     "countrie": "China",
     "names": ["Wei", "Li", "Chen", "Ying", "Hua", "Jing", "Tao", "Lian", "Mei", "Bo"],
@@ -267,7 +264,7 @@ china = {
     }
 }
 
-# === 8. Brazil ===
+
 brazil = {
     "countrie": "Brazil",
     "names": ["Gabriel", "Lucas", "Matheus", "Rafael", "Ana", "Julia", "Larissa", "Pedro", "Mariana", "João"],
@@ -295,7 +292,7 @@ brazil = {
     }
 }
 
-# === 9. Australia ===
+
 australia = {
     "countrie": "Australia",
     "names": ["Liam", "Olivia", "Noah", "Ava", "Jack", "Isla", "Ethan", "Mia", "Harper", "William"],
@@ -323,7 +320,7 @@ australia = {
     }
 }
 
-# === 10. South Korea ===
+
 south_korea = {
     "countrie": "South Korea",
     "names": ["Min-Jun", "Seo-Yeon", "Ji-Hoon", "Ha-Yun", "Ji-Woo", "Ye-Joon", "Soo-Bin", "Hyeon", "Yu-Jin", "Seo-Jin"],
@@ -351,3 +348,5 @@ south_korea = {
     }
 }
 
+
+ALL_COUNTRIES = [austria,australia,brazil,china,canada,south_korea,india,uk,usa,france,japan,germany]

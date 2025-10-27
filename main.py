@@ -1,5 +1,4 @@
 
-
 def menu():
     print("\t\t", 40 * "*")
     count = input("\t\t Input how many users to create: ")
