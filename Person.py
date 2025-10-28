@@ -26,5 +26,5 @@ class Person:
     def _assign_profession(self):
         self.profession = random.choice(list(self.country_data["profession"].keys()))
         salary_detalis = self.country_data["profession"][self.profession]
-        self.salary = random.randint(salary_detalis["min"], salary_detalis["max"])
+        self.salary = random.randint(salary_detalis["salary"]["min"], salary_detalis["salary"]["max"])
 
