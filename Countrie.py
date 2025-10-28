@@ -349,4 +349,7 @@ south_korea = {
 }
 
 
-ALL_COUNTRIES = [austria,australia,brazil,china,canada,south_korea,india,uk,usa,france,japan,germany]
+ALL_COUNTRIES = [austria, australia, brazil, china, canada, south_korea, india, uk, usa, france, japan, germany]
+
+detali = random_countrie["profession"][profesion]
+print(random_countrie,profesion,detali)

@@ -11,10 +11,11 @@ class Person:
         # 1. Визначення незалежних\прямих атрибутів
         self.name = random.choice(country_data["names"])
         self.age = random.randint(18,65)
+        self.profession = None
+        self.salary = None
 
         # 2. Виклик методів для розрахунку залежних атрибутів
         self._assign_profession()
-        self._calculate_finances()
 
         # Генерація через Faker
         self.email = fake.email()
@@ -23,4 +24,7 @@ class Person:
 
 
     def _assign_profession(self):
-        for i in self.country_data["profession"]:
+        self.profession = random.choice(list(self.country_data["profession"].keys()))
+        salary_detalis = self.country_data["profession"][self.profession]
+        self.salary = random.randint(salary_detalis["min"], salary_detalis["max"])
+
