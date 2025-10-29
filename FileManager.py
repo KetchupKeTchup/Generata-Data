@@ -19,5 +19,18 @@ class FileManager:
         with open(self.person_data, "w") as file:
             json.dump(users,file, indent=4)
 
-    def read_file(self):
-        pass
+    def read_file_users(self):
+        all_users = None
+        try:
+            with open(self.person_data, "r") as file:
+                all_users = json.load(file)
+        except (FileNotFoundError, json.JSONDecodeError):
+            all_users = []
+
+        print("\t","-" * 40)
+        print(f"\t\033[32m Count users: {len(all_users)} \033[0m")
+        print("\t","-" * 40)
+
+        for i in all_users[:5]:
+            print(f"\t {i["name"]}, age: {i["age"]}, country: {i["country"]}, profesion: {i["profession"]}")
+            print("\t","-" * 40)

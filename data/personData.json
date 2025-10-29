@@ -88,5 +88,95 @@
         "salary": 3589,
         "email": "colleenlang@example.com",
         "phone_number": "+55728.538.5816"
+    },
+    {
+        "name": "Lena",
+        "age": 37,
+        "country": "Germany",
+        "profession": "Graphic Designer",
+        "salary": 3352,
+        "email": "davidsims@example.net",
+        "phone_number": "+49(305)732-4364"
+    },
+    {
+        "name": "Freddie",
+        "age": 57,
+        "country": "United Kingdom",
+        "profession": "Data Analyst",
+        "salary": 8042,
+        "email": "evansmelissa@example.org",
+        "phone_number": "+44(756)759-5122"
+    },
+    {
+        "name": "Diya",
+        "age": 41,
+        "country": "India",
+        "profession": "Teacher",
+        "salary": 1520,
+        "email": "richardsanders@example.com",
+        "phone_number": "+91001-852-445-2168x290"
+    },
+    {
+        "name": "Lukas",
+        "age": 19,
+        "country": "Germany",
+        "profession": "Nurse",
+        "salary": 4254,
+        "email": "deborahgraham@example.org",
+        "phone_number": "+49270-440-0332x47801"
+    },
+    {
+        "name": "Olivia",
+        "age": 53,
+        "country": "Australia",
+        "profession": "Software Engineer",
+        "salary": 9537,
+        "email": "nguyenjeffrey@example.net",
+        "phone_number": "+61915-298-4427"
+    },
+    {
+        "name": "Amelia",
+        "age": 48,
+        "country": "Canada",
+        "profession": "Electrician",
+        "salary": 4726,
+        "email": "gmoreno@example.net",
+        "phone_number": "+1+1-786-395-4369x74763"
+    },
+    {
+        "name": "Thomas",
+        "age": 60,
+        "country": "Austria",
+        "profession": "Nurse",
+        "salary": 4271,
+        "email": "griffithjason@example.net",
+        "phone_number": "+437487143162"
+    },
+    {
+        "name": "Hugo",
+        "age": 64,
+        "country": "France",
+        "profession": "Data Analyst",
+        "salary": 5259,
+        "email": "santiagolori@example.net",
+        "phone_number": "+33586.520.9616x6732"
+    },
+    {
+        "name": "Priya",
+        "age": 62,
+        "country": "India",
+        "profession": "Electrician",
+        "salary": 774,
+        "email": "jeffreymoore@example.net",
+        "phone_number": "+91460-797-9924x9963"
+    },
+    {
+        "name": "Hans",
+        "age": 37,
+        "country": "Germany",
+        "profession": "Software Engineer",
+        "salary": 4882,
+        "email": "michelekirk@example.org",
+        "phone_number": "+49827.422.8576"
     }
 ]

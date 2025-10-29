@@ -6,17 +6,6 @@ from FileManager import FileManager
 
 file_manager = FileManager()
 
-# def generate_users(num_users):
-#     users = []
-#     for _ in range(int(num_users)):
-#         country_data = random.choice(ALL_COUNTRIES)
-#
-#         person = Person(country_data)
-#         users.append(person)
-#
-#     return users
-
-
 
 def menu():
     while True:
@@ -25,7 +14,7 @@ def menu():
               "\t [2] - Show statistics \n"
               "\t [0] - Exit")
         print("\t", 40 * "*")
-        action = input("Input: ")
+        action = input("\t Input: ")
         if action == "1":
             star_time = time.time() # Замірювання часу виконання
 
@@ -40,10 +29,10 @@ def menu():
             end_time = time.time()
             result_time = end_time - star_time
             print(f"Added successfully users")
-            print(f"{result_time}: sec")
+            print(f"{round(result_time,2)}: sec")
 
         elif action == "2":
-            pass
+            file_manager.read_file_users()
         elif action == "0":
             break
 
