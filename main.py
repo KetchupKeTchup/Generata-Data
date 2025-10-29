@@ -1,31 +1,51 @@
 import random
-from Countrie import ALL_COUNTRIES
+import time
 from Person import Person
+from FileManager import FileManager
 
-def generate_users(num_users):
-    users = []
-    for _ in range(int(num_users)):
-        country_data = random.choice(ALL_COUNTRIES)
 
-        person = Person(country_data)
-        users.append(person)
+file_manager = FileManager()
 
-    return users
+# def generate_users(num_users):
+#     users = []
+#     for _ in range(int(num_users)):
+#         country_data = random.choice(ALL_COUNTRIES)
+#
+#         person = Person(country_data)
+#         users.append(person)
+#
+#     return users
 
 
 
 def menu():
-    print("\t\t", 40 * "*")
-    count = input("\t\t Input how many users to create: ")
-    print("\t\t", 40 * "*")
+    while True:
+        print("\t", 40 * "*")
+        print("\t [1] - Create new user \n"
+              "\t [2] - Show statistics \n"
+              "\t [0] - Exit")
+        print("\t", 40 * "*")
+        action = input("Input: ")
+        if action == "1":
+            star_time = time.time() # Замірювання часу виконання
 
-    users_list = generate_users(count)
-    print("\n\t\t --- Згенеровані Користувачі ---")
-    for i, user in enumerate(users_list[:5]):
-        print(
-            f"\t\t {i + 1}. {user.name} ({user.age}, {user.countrie}, {user.profession}) - Зарплата: {round(user.salary)} {user.country_data['currency']}")
-        # ... тут буде код експорту у Pandas/CSV/JSON ...
+            count = int(input("\t Input how many users to create: "))
+            while count > 0:
+                new_user = Person.generate_person()
+                file_manager.save_user(new_user.person_accont())
+                count -= 1
 
+
+            #--------------------------
+            end_time = time.time()
+            result_time = end_time - star_time
+            print(f"Added successfully users")
+            print(f"{result_time}: sec")
+
+        elif action == "2":
+            pass
+        elif action == "0":
+            break
 
 if __name__ == "__main__":
     menu()

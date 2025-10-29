@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Ana",
+        "age": 58,
+        "country": "Brazil",
+        "profession": "Software Engineer",
+        "salary": 1979,
+        "email": "bakernichole@example.com",
+        "phone_number": "+55+1-205-829-6284x649"
+    },
+    {
+        "name": "Isla",
+        "age": 36,
+        "country": "Australia",
+        "profession": "Teacher",
+        "salary": 4108,
+        "email": "matthewgonzales@example.org",
+        "phone_number": "+61001-325-226-5315x4102"
+    },
+    {
+        "name": "Gabriel",
+        "age": 52,
+        "country": "France",
+        "profession": "Doctor",
+        "salary": 10005,
+        "email": "jeffreyharding@example.net",
+        "phone_number": "+33+1-610-289-9496x808"
+    },
+    {
+        "name": "Gabriel",
+        "age": 61,
+        "country": "Brazil",
+        "profession": "Graphic Designer",
+        "salary": 2760,
+        "email": "zbrady@example.net",
+        "phone_number": "+55486-637-0696"
+    },
+    {
+        "name": "Yuki",
+        "age": 26,
+        "country": "Japan",
+        "profession": "Software Engineer",
+        "salary": 3751,
+        "email": "matthewduran@example.com",
+        "phone_number": "+813974389298"
+    },
+    {
+        "name": "Sophie",
+        "age": 61,
+        "country": "United Kingdom",
+        "profession": "Doctor",
+        "salary": 6533,
+        "email": "belljeffrey@example.net",
+        "phone_number": "+44401-752-0187"
+    },
+    {
+        "name": "Liam",
+        "age": 48,
+        "country": "Canada",
+        "profession": "Graphic Designer",
+        "salary": 3785,
+        "email": "ilee@example.com",
+        "phone_number": "+1663.883.3357"
+    },
+    {
+        "name": "Lena",
+        "age": 18,
+        "country": "Germany",
+        "profession": "Nurse",
+        "salary": 3532,
+        "email": "joseph14@example.org",
+        "phone_number": "+49590-252-8364"
+    },
+    {
+        "name": "Yuki",
+        "age": 63,
+        "country": "Japan",
+        "profession": "Farmer",
+        "salary": 3573,
+        "email": "victoriacampbell@example.net",
+        "phone_number": "+81(237)434-4664"
+    },
+    {
+        "name": "Gabriel",
+        "age": 63,
+        "country": "Brazil",
+        "profession": "Nurse",
+        "salary": 3589,
+        "email": "colleenlang@example.com",
+        "phone_number": "+55728.538.5816"
+    }
+]

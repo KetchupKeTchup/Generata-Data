@@ -1,4 +1,5 @@
 import random
+from Countrie import ALL_COUNTRIES
 from faker import Faker
 fake = Faker()
 
@@ -21,7 +22,20 @@ class Person:
         self.email = fake.email()
         self.phone_number = country_data["phone_code"] + fake.phone_number()
 
-
+    def person_accont(self):
+        return {
+            "name": self.name,
+            "age": self.age,
+            "country":self.countrie,
+            "profession": self.profession,
+            "salary": self.salary,
+            "email":self.email,
+            "phone_number": self.phone_number
+        }
+    @staticmethod
+    def generate_person():
+        random_person = Person(random.choice(ALL_COUNTRIES))
+        return random_person
 
     def _assign_profession(self):
         self.profession = random.choice(list(self.country_data["profession"].keys()))
