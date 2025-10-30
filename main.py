@@ -2,6 +2,7 @@ import random
 import time
 from Person import Person
 from FileManager import FileManager
+from Countrie import ALL_COUNTRIES
 
 
 file_manager = FileManager()
@@ -12,6 +13,7 @@ def menu():
         print("\t", 40 * "*")
         print("\t [1] - Create new user \n"
               "\t [2] - Show statistics \n"
+              "\t [3] - Show countries \n"
               "\t [0] - Exit")
         print("\t", 40 * "*")
         action = input("\t Input: ")
@@ -33,6 +35,10 @@ def menu():
 
         elif action == "2":
             file_manager.read_file_users()
+        elif action == "3":
+            for i in ALL_COUNTRIES:
+                print(f"\t{i["countrie"]}, currency: {i["currency"]}, tax_rate: {i["tax_rate"]}, ")
+                print("\t-" * 20)
         elif action == "0":
             break
 

@@ -1,8 +1,9 @@
 import json
+from Countrie import ALL_COUNTRIES
 
 class FileManager:
 
-    def __init__(self, person_data = "data/personData.json",):
+    def __init__(self, person_data = "data/personData.json"):
         self.person_data = person_data
 
     # Функція для запису нових користувачів
@@ -34,3 +35,6 @@ class FileManager:
         for i in all_users[:5]:
             print(f"\t {i["name"]}, age: {i["age"]}, country: {i["country"]}, profesion: {i["profession"]}")
             print("\t","-" * 40)
+
+    def save_to_sql(self):
+        pass
