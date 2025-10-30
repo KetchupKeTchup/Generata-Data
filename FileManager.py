@@ -38,3 +38,9 @@ class FileManager:
 
     def save_to_sql(self):
         pass
+
+    
+    def cleal_json_file(self):
+        clean = []
+        with open(self.person_data, "w") as f:
+            json.dump(clean, f)
