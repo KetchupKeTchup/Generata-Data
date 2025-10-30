@@ -13,7 +13,8 @@ def menu():
         print("\t", 40 * "*")
         print("\t [1] - Create new user \n"
               "\t [2] - Show statistics \n"
-              "\t [3] - Show countries \n"
+              "\t [3] - Show countries  \n"
+              "\t [4] - Clean users     \n"
               "\t [0] - Exit")
         print("\t", 40 * "*")
         action = input("\t Input: ")
