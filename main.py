@@ -39,6 +39,11 @@ def menu():
             for i in ALL_COUNTRIES:
                 print(f"\t{i["countrie"]}, currency: {i["currency"]}, tax_rate: {i["tax_rate"]}, ")
                 print("\t-" * 20)
+
+        elif action == "4":
+            file_manager.cleal_json_file()
+            print("\t All users is delete")
+        
         elif action == "0":
             break
 
